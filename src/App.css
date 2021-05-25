@@ -1,0 +1,113 @@
+.home-container {
+  background: url("https://i.ibb.co/m0FfRqL/header.jpg") no-repeat center /
+    cover;
+}
+
+.home-cont-text {
+  padding-top: 180px !important;
+  padding-bottom: 180px !important;
+}
+
+.signup-btn {
+  color: white !important;
+  font-weight: 500 !important;
+  background-color: #eb6825 !important;
+  border: none !important;
+}
+
+input::placeholder {
+  color: #989898;
+}
+
+input {
+  color: black !important;
+  box-shadow: none !important;
+}
+
+.search-btn {
+  font-size: 1.1rem !important;
+  padding: 0.8rem 2.6rem !important;
+}
+
+.btn-warning {
+  color: #fff !important;
+  background-color: #eb6825 !important;
+  border-color: #eb6825 !important;
+  box-shadow: none !important;
+}
+
+.nav-item a {
+  color: black;
+  font-weight: 600;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.nav-item a::before {
+  position: absolute;
+  content: "";
+  background: #eb6825;
+  width: 2.8rem;
+  height: 0.2rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0;
+  transform: scaleX(0);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.nav-item a.active::before {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.nav-item a:hover::before {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.nav-item a.active {
+  color: #eb6825;
+}
+
+.nav-item a:hover {
+  color: #eb6825;
+}
+
+.food .card {
+  border: none;
+}
+.food .card-img-top {
+  width: 60%;
+  display: block;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+
+.food {
+  color: black !important;
+}
+
+.food:hover {
+  text-decoration: none;
+}
+
+.food .card:hover {
+  box-shadow: 0 0.5rem 1.1rem rgba(0, 0, 0, 0.1);
+}
+
+.cart-controller {
+  border-radius: 25px !important;
+  border: 1px solid lightgrey !important;
+}
+
+.cart-controller .btn {
+  font-size: 20px;
+  line-height: 30px;
+  padding: 0 10px !important;
+}
